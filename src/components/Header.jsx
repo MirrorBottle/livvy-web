@@ -4,9 +4,6 @@ import Logo from '../assets/logo.jpg'
 import menu from '../assets/menu.png'
 import close from '../assets/close.png'
 
-
-
-
 const Header = () => {
   const [side, setSide] = useState('hidden');
   const [sidelogo, setSidelogo] = useState(menu);

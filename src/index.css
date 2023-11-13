@@ -5,7 +5,7 @@
 @layer components{
   .headnav{
     @apply hover:font-bold mx-2 transition-all 
-    ease-linear cursor-pointer
+    ease-linear cursor-pointer 
   }
   .sidebar{
     @apply flex flex-col min-h-screen absolute
