@@ -14,8 +14,10 @@ const Body = () => {
             if (i % 2 == 0) row = "flex-row-reverse"; 
             return(
             <div className={`flex flex-col items-center mb-10 md:${row} px-10 py-10 md:justify-center`} key={i}>
-              <div className="info-img w-1/2 w-[250px] md:w-[50vw] mb-5"><img className='md:mx-auto' src={e.img} /></div>
-              <div className='w-full md:w-1/2'>
+              <div className="info-img w-[250px] md:w-[50vw] mb-5">
+                <img className='md:mx-auto' src={e.img} />
+              </div>
+              <div className='w-full md:w-[50%]'>
                 <div className="text-center my-10 md:text-justify md:mx-10 md:text-xl">{e.detail}</div>
                 <div className="
                 border 
